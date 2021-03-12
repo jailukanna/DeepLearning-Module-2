@@ -10,7 +10,7 @@ Clustering algorithms take the data and using some sort of similarity metrics, t
 
 Hierarchical Clustering is a method of unsupervised machine learning clustering where it begins with a pre-defined top to bottom hierarchy of clusters. It then proceeds to perform a decomposition of the data objects based on this hierarchy, hence obtaining the clusters. This method follows two approaches based on the direction of progress, i.e., whether it is the top-down or bottom-up flow of creating clusters. These are Divisive Approach and the Agglomerative Approach respectively.
 
-![5.png](attachment:5.png)
+![5.png](images/5.png)
 
 #### 1.1 Divisive Approach
 
@@ -35,7 +35,7 @@ These groups of clustering methods iteratively measure the distance between the 
 
 The major setback here is that we should either intuitively or scientifically (Elbow Method) define the number of clusters, “k”, to begin the iteration of any clustering machine learning algorithm to start assigning the data points.
 
-![7.png](attachment:7.png)
+![7.png](images/7.png)
 
 Despite the flaws, Centroid based clustering has proven it’s worth over Hierarchical clustering when working with large datasets. Also, owing to its simplicity in implementation and also interpretation, these algorithms have wide application areas viz., market segmentation, customer segmentation, text topic retrieval, image segmentation etc.
 
@@ -48,13 +48,13 @@ When performing most of the clustering, we take two major assumptions, one, the 
 Density-based algorithms can get us clusters with arbitrary shapes, clusters without any limitation in cluster sizes, clusters that contain the maximum level of homogeneity by ensuring the same levels of density within it, and also these clusters are inclusive of outliers or the noisy data.
 
 
-![8.png](attachment:8.png)
+![8.png](images/8.png)
 
 ### 4. Distribution-Based Clustering
 
 Until now, the clustering techniques as we know are based around either proximity (similarity/distance) or composition (density). There is a family of clustering algorithms that take a totally different metric into consideration – probability. Distribution-based clustering creates and groups data points based on their likely hood of belonging to the same probability distribution (Gaussian, Binomial etc.) in the data.
 
-![9.png](attachment:9.png)
+![9.png](images/9.png)
 
 The distribution models of clustering are most closely related to statistics as it very closely relates to the way how datasets are generated and arranged using random sampling principles i.e., to fetch data points from one form of distribution. Clusters can then be easily be defined as objects that are most likely to belong to the same distribution.
 
@@ -77,7 +77,7 @@ Grid-based clustering using two typical examples. STING and  CLIQUE
 
 
 
-![10.png](attachment:10.png)
+![10.png](images/:10.png)
 
 #### CLIQUE:
 
@@ -86,7 +86,7 @@ Grid-based clustering using two typical examples. STING and  CLIQUE
    The main strategy behind CLIQUE for identifying a candidate search space uses the monotonicity of dense cells with respect to dimensionality. This is based on the Apriori property used in frequent pattern and association rule mining (Chapter 6). In the context of clusters in subspaces, the monotonicity says the following. A k-dimensional cell c(k > 1) can have at least l points only if every (k − 1)-dimensional projection of c, which is a cell in a (k − 1)-dimensional subspace, has at least l points. Consider Figure 10.20, where the embedding data space contains three dimensions: age, salary, and vacation. A 2-D cell, say in the subspace formed by age and salary, contains l points only if the projection of this cell in every dimension, that is, age and salary, respectively, contains at least l points.
 
 
-![11.png](attachment:11.png)
+![11.png](images/11.png)
 
  Dense units found with respect to age for the dimensions salary and vacation are intersected to provide a candidate search space for dense units of higher dimensionality
 
@@ -94,7 +94,7 @@ Grid-based clustering using two typical examples. STING and  CLIQUE
 
 k-Means is one of the most widely used and perhaps the simplest unsupervised algorithms to solve the clustering problems. Using this algorithm, we classify a given data set through a certain number of predetermined clusters or “k” clusters. Each cluster is assigned a designated cluster center and they are placed as much as possible far away from each other. Subsequently, each point belonging gets associated with it to the nearest centroid till no point is left unassigned. Once it is done, the centers are re-calculated and the above steps are repeated. The algorithm converges at a point where the centroids cannot move any further. This algorithm targets to minimize an objective function called the squared error function F(V) :
 
-![12.png](attachment:12.png)
+![12.png](images/12.png)
 
 where,
 ||xi – vj|| is the distance between Xi and Vj.
