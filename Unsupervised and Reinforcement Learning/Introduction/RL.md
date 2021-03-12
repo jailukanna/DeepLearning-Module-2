@@ -11,6 +11,7 @@
    
    * To maximize the cumulative reward, the agent has to learn the best behavior in every situation. To do so, the agent has to optimize for a long-term horizon while taking care of every single action. In environments with many discrete or continuous states and actins, learning is difficult because the agent should be accountable for each situation. To make the problem harder, RL can have very sparse and delayed rewards, making the learning process more arduous.*
 
+___
 
 ### B. Reinforcement Learning vs Supervised Learning
 
