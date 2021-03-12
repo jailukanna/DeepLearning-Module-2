@@ -123,11 +123,12 @@ ___
            The RL is currently used in the finance sector for evaluating trading strategies.
 
 ___
+
 ### H. Resources to Learn Further
 
-       _ https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs _
+       ** https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs **
         
-       _ http://rail.eecs.berkeley.edu/deeprlcourse/ _
+       ** http://rail.eecs.berkeley.edu/deeprlcourse/ **
         
        _ https://www.freecodecamp.org/news/an-introduction-to-reinforcement-learning-4339519de419/ _
         
