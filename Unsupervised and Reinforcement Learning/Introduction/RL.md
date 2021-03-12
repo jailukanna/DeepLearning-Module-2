@@ -125,14 +125,14 @@ ___
 ___
 ### H. Resources to Learn Further
 
-       _https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs_
+       _ https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs _
         
-       _http://rail.eecs.berkeley.edu/deeprlcourse/_
+       _ http://rail.eecs.berkeley.edu/deeprlcourse/ _
         
-       _https://www.freecodecamp.org/news/an-introduction-to-reinforcement-learning-4339519de419/_
+       _ https://www.freecodecamp.org/news/an-introduction-to-reinforcement-learning-4339519de419/ _
         
-       _https://katefvision.github.io/_
+       _ https://katefvision.github.io/ _
         
-       _https://www.cse.iitm.ac.in/~ravi/courses/Reinforcement%20Learning.html_
+       _ https://www.cse.iitm.ac.in/~ravi/courses/Reinforcement%20Learning.html _
         
-       _http://web.stanford.edu/class/cs234/index.html_
+       _ http://web.stanford.edu/class/cs234/index.html _
