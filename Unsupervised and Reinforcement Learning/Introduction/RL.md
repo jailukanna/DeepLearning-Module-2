@@ -17,7 +17,7 @@ ___
 
 
 
-
+___
 ### C. Prerequisites
 
 
@@ -28,7 +28,7 @@ ___
 
     #### 2.Python –
  
-   * It is a general-purpose, interactive, high-level, object-oriented scripting/programming language designed to be highly readable. It is the major code language for Machine Learning & Artificial Intelligence for reasons that it has a low barrier, a great library ecosystem within itself, platform independence, provides flexibility and has a range of good visualization options to choose from. Hence, there is no doubt that Python is the most popular choice among data scientists. *\
+    * It is a general-purpose, interactive, high-level, object-oriented scripting/programming language designed to be highly readable. It is the major code language for Machine Learning & Artificial Intelligence for reasons that it has a low barrier, a great library ecosystem within itself, platform independence, provides flexibility and has a range of good visualization options to choose from. Hence, there is no doubt that Python is the most popular choice among data scientists. *\
 
     #### 3.Probability –
     
@@ -45,6 +45,8 @@ ___
     
            * It is a branch of mathematics that lets you describe the coordinates and the interactions of planes in higher dimensions concisely, and thereby perform operations on them. It is useful in Machine Learning in the sense that one can describe complex operations using the formalisms, notations and matrix factorization from linear algebra.Using Linear Algebra in Reinforcement Learning can serve as building blocks for deeper intuition. You can even get more out of the existing algorithms, implement algorithms from scratch, devise new algorithms, the possibilities are endless. *
 
+___
+
 ### D. Types of Reinforcement Learning
 
         There are mainly two types of reinforcement learning, which are:
@@ -59,6 +61,8 @@ ___
     ####  Negative Reinforcement:
         
         * The negative reinforcement learning is opposite to the positive reinforcement as it increases the tendency that the specific behavior will occur again by avoiding the negative condition.It can be more effective than the positive reinforcement depending on situation and behavior, but it provides reinforcement only to meet minimum behavior.*
+        
+ ___       
 
 ### E. Elements of Reinforcement Learning
 
@@ -81,9 +85,12 @@ ___
                   The model is used for planning, which means it provides a way to take a course of action by considering all future situations before actually experiencing those situations. The approaches for solving the RL problems with the help of the model are termed as the model-based approach. Comparatively, an approach without using a model is called a model-free approach.```
 
 
-
+___
 ### F. Reinforcement Learning in Action
 
+
+
+___
 
 ### G. Applications of Reinforcement Learning
 
@@ -115,16 +122,17 @@ ___
            
            The RL is currently used in the finance sector for evaluating trading strategies.
 
+___
 ### H. Resources to Learn Further
 
-       ``` https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs```
+       _https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs_
         
-       ```http://rail.eecs.berkeley.edu/deeprlcourse/```
+       _http://rail.eecs.berkeley.edu/deeprlcourse/_
         
-       ``` https://www.freecodecamp.org/news/an-introduction-to-reinforcement-learning-4339519de419/```
+       _https://www.freecodecamp.org/news/an-introduction-to-reinforcement-learning-4339519de419/_
         
-       ``` https://katefvision.github.io/```
+       _https://katefvision.github.io/_
         
-       ```https://www.cse.iitm.ac.in/~ravi/courses/Reinforcement%20Learning.html```
+       _https://www.cse.iitm.ac.in/~ravi/courses/Reinforcement%20Learning.html_
         
-       ``` http://web.stanford.edu/class/cs234/index.html```
+       _http://web.stanford.edu/class/cs234/index.html_
