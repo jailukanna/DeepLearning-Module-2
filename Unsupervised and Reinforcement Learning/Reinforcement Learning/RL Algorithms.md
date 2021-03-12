@@ -4,7 +4,7 @@
 
 Markov Decision Process or MDP, is used to formalize the reinforcement learning problems. If the environment is completely observable, then its dynamic can be modeled as a Markov Process. In MDP, the agent constantly interacts with the environment and performs actions; at each action, the environment responds and generates a new state.
 
-![13.png](attachment:13.png)
+![13.png](images/13.png)
 
 MDP is used to describe the environment for the RL, and almost all the RL problem can be formalized using MDP.
 
@@ -61,7 +61,7 @@ In the model-based approach, a virtual model is created for the environment, and
 *	The below flowchart explains the working of Q- learning:
 
 
-![14.png](attachment:14.png)
+![14.png](images/14.png)
 
 ##### The algorithm:
 
@@ -74,7 +74,7 @@ To recap, the Q-learning algorithm uses the following:
 After these conclusive observations, we can finally come up with the following pseudocode for the Q-learning algorithm:
 
 
-![15.png](attachment:15.png)
+![15.png](images/15.png)
 
 In practice, $alpha$  usually has values between 0.5 and 0.001 and $gama$  ranges from 0.9 to 0.999
 
@@ -103,22 +103,22 @@ Policy gradient methods or policy optimization methods have a more direct and ob
 In the equation, we have various components, including reward, discount factor (γ), probability, and end states s'. But there is no any Q-value is given so first consider the below image:
 
 
-![21.png](attachment:21.png)
+![21.png](images/21.png)
 
 In the above image, we can see there is an agent who has three values options, V(s1), V(s2), V(s3). As this is MDP, so agent only cares for the current state and the future state. The agent can go to any direction (Up, Left, or Right), so he needs to decide where to go for the optimal path. Here agent will take a move as per probability bases and changes the state. But if we want some exact moves, so for this, we need to make some changes in terms of Q-value. Consider the below image:
 
-![22.png](attachment:22.png)
+![22.png](images/22.png)
 
 Q- represents the quality of the actions at each state. So instead of using a value at each state, we will use a pair of state and action, i.e., Q(s, a). Q-value specifies that which action is more lubricative than others, and according to the best Q-value, the agent takes his next move. The Bellman equation can be used for deriving the Q-value.
 
 To perform any action, the agent will get a reward R(s, a), and also he will end up on a certain state, so the Q -value equation will be:
 
 
-![23.png](attachment:23.png)
+![23.png](images/23.png)
 
 Hence, we can say that V(s) = max [Q(s,a)]
 
-![24.png](attachment:24.png)
+![24.png](images/24.png)
 
 The above formula is used to estimate the Q-values in Q-Learning.
 
@@ -143,7 +143,7 @@ The principal idea is to split the model in two: one for computing an action bas
 The actor takes as input the state and outputs the best action. It essentially controls how the agent behaves by learning the optimal policy (policy-based). The critic, on the other hand, evaluates the action by computing the value function (value based). Those two models participate in a game where they both get better in their own role as the time passes. The result is that the overall architecture will learn to play the game more efficiently than the two methods separately.
 
 
-![20.png](attachment:20.png)
+![20.png](images/20.png)
 
    This idea of having two models interact (or compete) with each other is getting more and more popular in the field of machine learning in the last years. Think of Generative Adversarial Networks or Variational Autoencoders for example.
 
@@ -161,7 +161,7 @@ The actor takes as input the state and outputs the best action. It essentially c
 
 Atari games became a standard testbed for deep RL algorithms since their introduction in the DQN paper. These were first provided in the Arcade Learning Environment (ALE) and subsequently wrapped by OpenAI Gym to provide a standard interface. ALE (and Gym) includes 57 of the most popular Atari 2600 video games, such as Montezuma's Revenge, Pong, Breakout, and Space Invaders, as shown in the following illustration. These games have been widely used in RL research for their high-dimensional state space (210 x 160 pixels) and their task diversity between games:
 
-![19.png](attachment:19.png)
+![19.png](images/19.png)
 
 A very important note about Atari environments is that they are deterministic, meaning that, given a fixed set of actions, the results will be the same across multiple matches. From an algorithm perspective, this determinism holds true until all the history is used to choose an action from a stochastic policy.
 
@@ -207,9 +207,9 @@ The goal therefore would be to obtain higher probability for good moves and lowe
 Input of the board representation is received, which is a 19 x 19 x 17 tensor. It is passed through a residual convolution network then fully connected layers finally output a policy vector and a value representation. Initially, the policy vector will contain random values since the networks start with random weights initially. Post obtaining the policy vector for all possible moves for the given state, it selects a set of possible moves having very high probabilities, assuming that the moves having the high probabilities are also potentially strong moves:
 
 
-![16.png](attachment:16.png)
+![16.png](images/16.png)
 
-![17.png](attachment:17.png)
+![17.png](images/17.png)
 
 Based on those selected sets of moves, different games states are received each corresponding to their move. Since you simulate playing those moves on the previous state, this results in a bunch of different states. Now, for these next sets of state, repeat the preceding process by inputting the representation tensor for these game states and obtain their policy vectors.
 
@@ -218,6 +218,6 @@ Thus, for the current board position this repetitive process will explode into a
 The AlphaGo team decided to play about 1600 simulations for every single board position evaluation. Therefore, for every single board state a Monte Carlo Tree Search is going to run until 1600 simulations are obtained. After which, a value network decides which of the resulting board positions is the best, that is, has the highest probability of winning. Then backup all those values to the top of the tree till the current game state (that is current board position which is being evaluated) and receive a very strong estimate for the moves that are genuinely strong and which are not.
 
 
-![18.png](attachment:18.png)
+![18.png](images/18.png)
 
 Thanks for Reading ! @ Bindu G
