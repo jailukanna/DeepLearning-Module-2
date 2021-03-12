@@ -89,7 +89,7 @@ ___
 ___
 ### F. Reinforcement Learning in Action
 
-![31.png](images/31.png)
+ ![31.bmp](images/31.bmp)
 
 * Reinforcement learning is a subclass of machine learning. RL algorithms learn by maximizing rewards in some environment, and they’re useful when a problem involves making decisions or taking actions. RL algorithms can, in principle, employ any statistical learning model, but it has become increasingly popular and effective to use deep neural networks.
 
