@@ -20,7 +20,7 @@ Hence, iteratively, we are splitting the data which was once grouped as a single
 
 It must be taken into account that this algorithm is highly “rigid” when splitting the clusters – meaning, one a clustering is done inside a loop, there is no way that the task can be undone.
 
-![6.png](attachment:6.png)
+![6.png](images/6.png)
 
 #### 1.2 Agglomerative Approach
 
