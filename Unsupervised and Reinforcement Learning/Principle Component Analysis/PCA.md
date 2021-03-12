@@ -11,7 +11,7 @@
 *It is commonly used in the fields that deal with high-dimensional data, such as speech recognition, signal processing, bioinformatics, etc. It can also be used for data visualization, noise reduction, cluster analysis, etc.*
 
 
-![1.png](attachment:1.png)
+![1.png](images/1.png)
 
 #####   The Curse of Dimensionality
 
@@ -41,11 +41,11 @@ There are also some disadvantages of applying the dimensionality reduction, whic
 
 ## b. Singular Value Decomposition
 
-![SVD-0.png](attachment:SVD-0.png)
+![SVD-0.png](images/SVD-0.png)
 
-![SVD-1.png](attachment:SVD-1.png)
+![SVD-1.png](images/SVD-1.png)
 
-![SVD-2.png](attachment:SVD-2.png)
+![SVD-2.png](images/SVD-2.png)
 
 
 
@@ -66,15 +66,15 @@ There are also some disadvantages of applying the dimensionality reduction, whic
     Finally, three images have been replaced by a single image by rotating the axis of direction. In fact, we replicate the same technique in PCA analysis.
 
 
-![2.png](attachment:2.png)
+![2.png](images/2.png)
 
 Principal component working methodology is explained in the following sample example, in which actual data has been shown in a 2D space, in which X and Y axis are used to plot the data. Principal components are the ones in which maximum variation of the data is captured.
 
-![3.png](attachment:3.png)
+![3.png](images/3.png)
 
 The following diagram illustrates how it looks after fitting the principal components. The first principal component covers the maximum variance in the data and the second principal component is orthogonal to the first principal component, as we know all principal components are orthogonal to each other. We can represent whole data with the first principal component itself. In fact, that is how it is advantageous to represent the data with fewer dimensions, to save space and also to grab maximum variance in the data, which can be utilized for supervised learning in the next stage. This is the core advantage of computing principal components.
 
-![4.png](attachment:4.png)
+![4.png](images/4.png)
 
 #### Mathematical derivation for PCA
 
@@ -83,36 +83,36 @@ Geometrically, when finding the best-fit line for the swarm of points, our objec
 We briefly review here what that means. Let x′ixi′ be a row from our data, so x′ixi′ is a 1×K1×K vector. We defined the score value for this observation as the distance from the origin, along the direction vector, p1p1, to the point where we find the perpendicular projection onto p1p1. This is illustrated below, where the score value for observation xixi has a value of ti,1ti,1.
 
 
-![25.png](attachment:25.png)
+![25.png](images/25.png)
 
 Recall from geometry that the cosine of an angle in a right-angled triangle is the ratio of the adjacent side to the hypotenuse. But the cosine of an angle is also used in linear algebra to define the dot-product. Mathematically:
 
-![26.png](attachment:26.png)
+![26.png](images/26.png)
 
 where ∥⋅∥ indicates the length of the enclosed vector, and the length of the direction vector, p1 is 1.0, by definition.
 
 Note that ti,1=x′ip1ti,1=xi′p1 represents a linear combination
 
 
-![27.png](attachment:27.png)
+![27.png](images/27.png)
 
 So ti,1ti,1 is the score value for the ithith observation along the first component, and is a linear combination of the ithith row of data, xixi and the direction vector p1p1. Notice that there are KK terms in the linear combination: each of the KK variables contributes to the overall score.
 
 We can calculate the second score value for the ith observation in a similar way:
 
 
-![28.png](attachment:28.png)
+![28.png](images/28.png)
 
 And so on, for the third and subsequent components. We can compactly write in matrix form for the ithith observation that:
 
 
 
-![29.png](attachment:29.png)
+![29.png](images/29.png)
 
 which calculates all AA score values for that observation in one go. This is exactly what we derived earlier in the example with the 4 thermometers in the room.
 Finally, for an entire matrix of data, XX, we can calculate all scores, for all observations:
 
 
-![30.png](attachment:30.png)
+![30.png](images/30.png)
 
 Thanks for Reading ! @ Bindu G
