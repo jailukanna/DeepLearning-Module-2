@@ -2,13 +2,14 @@
  
 ### A.what is reinforcement learning?
 
-   RL is an area of machine learning that deals with sequential decision-making, aimed at reaching a desired goal. An RL problem is constituted by a decision-maker called an Agent and the physical or virtual world in which the agent interacts, is known as the Environment. The agent interacts with the environment in the form of Action which results in an effect. As a result, the environment will feedback to the agent a new State and Reward. These two signals are the consequences of the action taken by the agent. In particular, the reward is a value indicating how good or bad the action was, and the state is the current representation of the agent and the environment. This cycle is shown in the following diagram:
+   RL is an area of machine learning that deals with sequential decision-making, aimed at reaching a desired goal. An RL problem is constituted by a decision-maker called an Agent and the physical or virtual world in which the agent interacts, is known as the Environment. The agent interacts with the environment in the form of Action which result in an effect. As a result, the environment will feedback to the agent a new State and Reward. These two signals are the consequences of the action taken by the agent. In articular, the reward is a value indicating how good or bad the action was, and the state is the current representation of the agent and the environment. This cycle is shown in the following diagram:
 
 
    
-  In this diagram the agent is represented by PacMan that based on the current state of the environment, choose which action to take. Its behavior will influence the environment, like its position and that of the enemies, that will be returned by the environment in the form of a new state and the reward. This cycle is repeated until the game ends.
+  In this diagram the agent is represented by PacMan that based on the current state of the environment, choose which action to take. Its behavior will influence the environment, like its position and that of the enemies, that will be returned by the environment in the form of a new state and the reward. This cycle is repeated until the
+game ends.
    
-  The ultimate goal of the agent is to maximize the total reward accumulated during its lifetime. Let's simplify the notation: if    is the action at time   and   is the reward at time , then the agent will take actions, to maximize the sum of all rewards.
+  The ultimate goal of the agent is to maximize the total reward accumulated during its lifetime. Let's simplify the notation: if    is the action at time  and   is the reward at time , then the agent will take actions, to maximize the sum of all rewards.
    
   To maximize the cumulative reward, the agent has to learn the best behavior in every situation. To do so, the agent has to optimize for a long-term horizon while taking care of every single action. In environments with many discrete or continuous states and actins, learning is difficult because the agent should be accountable for each situation. To make the problem harder, RL can have very sparse and delayed rewards, making the learning process more arduous.
 
@@ -24,8 +25,8 @@ ___
 
     #### 1.Neural Networks -
 
-     * Neural networks are the agents that learn to map state-action pairs to rewards. They do so by finding and using the right coefficients/weights to approximate the function connecting inputs to outputs by iteratively adjusting those coefficients/weights along the gradients that promise less or no error.*\
-       * Deep Learning algorithms help develop artificial neural networks which imitate the neuron networks in the human brain. For example, it could be used to distinguish between females and males in images by classifying and clustering the image data such as distances between the shapes and other specifics in the existing photos to predict the identification in a new set of images.*\
+   * Neural networks are the agents that learn to map state-action pairs to rewards. They do so by finding and using the right coefficients/weights to approximate the function
+connecting inputs to outputs by iteratively adjusting those coefficients/weights along the gradients that promise less or no error. Deep Learning algorithms help develop artificial neural networks which imitate the neuron networks in the human brain. For example, it could be used to distinguish between females and males in images by classifying and clustering the image data such as distances between the shapes and other specifics in the existing photos to predict the identification in a new set of images.*\
 
     #### 2.Python –
  
