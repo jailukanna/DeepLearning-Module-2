@@ -10,7 +10,7 @@ Clustering algorithms take the data and using some sort of similarity metrics, t
 
 Hierarchical Clustering is a method of unsupervised machine learning clustering where it begins with a pre-defined top to bottom hierarchy of clusters. It then proceeds to perform a decomposition of the data objects based on this hierarchy, hence obtaining the clusters. This method follows two approaches based on the direction of progress, i.e., whether it is the top-down or bottom-up flow of creating clusters. These are Divisive Approach and the Agglomerative Approach respectively.
 
-![5.png](Unsupervised and Reinforcement Learning/images/5.png)
+![5.png](images/5.png)
 
 #### 1.1 Divisive Approach
 
