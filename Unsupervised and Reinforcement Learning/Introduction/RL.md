@@ -53,9 +53,6 @@ ___
 
    There are mainly two types of reinforcement learning, which are:
      
-   o	Positive Reinforcement
-   o	Negative Reinforcement
-        
    ####  Positive Reinforcement:
         
    *The positive reinforcement learning means adding something to increase the tendency that expected behavior would occur again. It impacts positively on the behavior of the agent and increases the strength of the behavior.This type of reinforcement can sustain the changes for a long time, but too much positive reinforcement may lead to an overload of states that can reduce the consequences.*
@@ -75,7 +72,7 @@ ___
    3.	Value Function
    4.	Model of the environment
         
-   #### 1) Policy: * A policy can be defined as a way how an agent behaves at a given time. It maps the perceived states of the environment to the actions taken on those states. A policy is the core element of the RL as it alone can define the behavior of the agent. In some cases, it may be a simple function or a lookup table, whereas, for other cases, it may involve general computation as a search process. It could be deterministic or a stochastic policy:*
+   #### 1) Policy: *A policy can be defined as a way how an agent behaves at a given time. It maps the perceived states of the environment to the actions taken on those states. A policy is the core element of the RL as it alone can define the behavior of the agent. In some cases, it may be a simple function or a lookup table, whereas, for other cases, it may involve general computation as a search process. It could be deterministic or a stochastic policy:*
    *For deterministic policy: a = π(s)*\
    *For stochastic policy: π(a | s) = P[At =a | St = s]*\
                     
