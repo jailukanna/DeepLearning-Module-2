@@ -126,7 +126,7 @@ ___
 
 ### H. Resources to Learn Further
 
-       ** https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs **
+       < https://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs >
         
        ** http://rail.eecs.berkeley.edu/deeprlcourse/ **
         
