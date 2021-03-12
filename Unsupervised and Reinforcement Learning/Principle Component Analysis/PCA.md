@@ -16,9 +16,9 @@
 #####   The Curse of Dimensionality
 
 
-    Handling the high-dimensional data is very difficult in practice, commonly known as the curse of dimensionality. If the dimensionality of the input dataset increases, any machine learning algorithm and model becomes more complex. As the number of features increases, the number of samples also gets increased proportionally, and the chance of overfitting also increases. If the machine learning model is trained on high-dimensional data, it becomes overfitted and results in poor performance.
+   Handling the high-dimensional data is very difficult in practice, commonly known as the curse of dimensionality. If the dimensionality of the input dataset increases, any machine learning algorithm and model becomes more complex. As the number of features increases, the number of samples also gets increased proportionally, and the chance of overfitting also increases. If the machine learning model is trained on high-dimensional data, it becomes overfitted and results in poor performance.
     
-    Hence, it is often required to reduce the number of features, which can be done with dimensionality reduction.
+   Hence, it is often required to reduce the number of features, which can be done with dimensionality reduction.
 
 
 ##### Benefits of applying Dimensionality Reduction
