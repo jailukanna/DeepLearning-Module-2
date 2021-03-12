@@ -29,10 +29,11 @@ connecting inputs to outputs by iteratively adjusting those coefficients/weights
     
    #### 4.Dynamic Programming – 
     
-   *It is a method used for solving complex problems by breaking them down into sub-problems, finding solutions for these sub-problems and then combining them again to solve the overall problem. The two prerequisites for using Dynamic Programming are:
-    
-   a.Overlapping subproblems: The solutions of the sub-problems that can be cached and reused as they recur many times in the entire process.
-   b.Optimal substructure: The optimal solutions of the sub-problems that can be used to solve the overall problem.It is worthwhile to mention the use of mathematical frameworks here like Markov Decision Processes (MDPs) that solve Reinforcement Learning problems by satisfying the properties of the Bellman Equation and the Value function. Read the beginner’s guide to Deep Reinforcement Learning to clarify concepts here.
+   It is a method used for solving complex problems by breaking them down into sub-problems, finding solutions for these sub-problems and then combining them again to solve the overall problem. The two prerequisites for using Dynamic Programming are:
+   
+   * Overlapping subproblems: The solutions of the sub-problems that can be cached and reused as they recur many times in the entire process.
+   
+   * Optimal substructure: The optimal solutions of the sub-problems that can be used to solve the overall problem.It is worthwhile to mention the use of mathematical frameworks here like Markov Decision Processes (MDPs) that solve Reinforcement Learning problems by satisfying the properties of the Bellman Equation and the Value function. Read the beginner’s guide to Deep Reinforcement Learning to clarify concepts here.
        
    #### 5.Linear Algebra – 
    
