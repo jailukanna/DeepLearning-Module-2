@@ -8,6 +8,14 @@ ___
 
 ### B. Reinforcement Learning vs Supervised Learning
 
+ | Reinforcement Learning|supervised Learning|
+----------------------------------------------------------
+|1.Rl works by interacting with environment|Supervised learned on the existing Dataset|
+---------------------------------------------------------------------------------------
+
+
+
+
 
 
 ___
