@@ -89,7 +89,20 @@ ___
 ___
 ### F. Reinforcement Learning in Action
 
+![31.png](images/31.png)
 
+* Reinforcement learning is a subclass of machine learning. RL algorithms learn by maximizing rewards in some environment, and they’re useful when a problem involves making decisions or taking actions. RL algorithms can, in principle, employ any statistical learning model, but it has become increasingly popular and effective to use deep neural networks.
+
+* The agent is the focus of any RL problem. It is the part of the RL algorithm that processes input to determine which action to take. In this book we are primarily focused on agents implemented as deep neural networks.
+
+* The environment is the potentially dynamic conditions in which the agent operates. More generally, the environment is whatever process generates the input data for the agent. For example, we might have an agent flying a plane in a flight simulator, so the simulator would be the environment.
+
+* The state is a snapshot of the environment that the agent has access to and uses to make decisions. The environment is often a set of constantly changing conditions, but we can sample from the environment, and these samples at particular times are the state information of the environment we give to the agent.
+
+* An action is a decision made by an agent that produces a change in its environment. Moving a particular chess piece is an action, and so is pressing the gas pedal in a car.
+A reward is a positive or negative signal given to an agent by the environment after it takes an action. The rewards are the only learning signals the agent is given. The objective of an RL algorithm (i.e., the agent) is to maximize rewards.
+
+* The general pipeline for an RL algorithm is a loop in which the agent receives input data (the state of the environment), the agent evaluates that data and takes an action from a set of possible actions given its current state, the action changes the environment, and the environment then sends a reward signal and new state information to the agent. Then the cycle repeats. When the agent is implemented as a deep neural network, each iteration evaluates a loss function based on the reward signal and backpropagates to improve the performance of the agent.
 
 ___
 
