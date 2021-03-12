@@ -6,19 +6,22 @@
 
 ___
 
-### B. Reinforcement Learning vs Supervised Learning
+### B. Reinforcement Learning vs Supervised Learning                                                                                                                        
 
- | Reinforcement Learning|supervised Learning|
-----------------------------------------------------------
-|1.Rl works by interacting with environment|Supervised learned on the existing Dataset|
----------------------------------------------------------------------------------------
-
-
-
-
+The difference between RL & SL shown below:
+ 
+|                  Reinforcement Learning                                    |                     Supervised Learning                               |  
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------|
+|  * RL works by Interacting with the environment                            | * SL works on existing dataset                                        |
+|  * RL Algorithm works with the human brain works when making some decision | * SL works as when a human learns things in the suervision of a guide |
+|  * There is no labeled Dataset is present                                  | * The Labeled dataset is present                                      |                 
+|  * No previous training is provided to the learning agent                  | * Trainig is provided to the algorithm so that in can predict         |
+|  * RL helps to take decisions sequentially                                 | * In SL decisions are made when input ig given
 
 
 ___
+
+
 ### C. Prerequisites
 
 
