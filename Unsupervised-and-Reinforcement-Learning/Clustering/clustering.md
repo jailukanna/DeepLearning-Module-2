@@ -77,7 +77,7 @@ Grid-based clustering using two typical examples. STING and  CLIQUE
 
 
 
-![10.png](images/:10.png)
+![10.png](images/10.png)
 
 #### CLIQUE:
 
